@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iconfont.css">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 90%;
+            margin: auto;
+            background-color: rgb(244, 244, 244);
+        }
+        
+        #top {
+            display: flex;
+            justify-content: space-between;
+            height: 8%;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        #top a {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 15px;
+        }
+        
+        #top a:nth-child(3),
+        #top>a:hover {
+            border-bottom: 2px solid #f00;
+            color: #f00;
+        }
+        
+        .banner img {
+            width: 100%;
+        }
+        
+        .main {
+            width: 90%;
+            margin: auto;
+            height: 145px;
+        }
+        
+        .main .yi,
+        .main .er {
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .main a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .main a span {
+            display: block;
+            text-align: center;
+            line-height: 60px;
+            width: 60px;
+            height: 60px;
+            font-size: 35px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgb(170, 170, 170);
+            overflow: hidden;
+            background-color: #fff;
+        }
+        
+        .faxian .name,
+        .faxian .tu .d1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .faxian .name h5 {
+            cursor: pointer;
+            color: #f00;
+        }
+        
+        .faxian .tu img {
+            width: 98%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .faxian .tu .tu1,
+        .faxian .tu .tu2 {
+            position: relative;
+        }
+        
+        .faxian .tu h4 {
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            color: #fff;
+        }
+        
+        .bottom {
+            width: 100%;
+            background-color: #fff;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        
+        .bottom li {
+            padding-top: 5px;
+            width: 50px;
+            height: 60px;
+            text-align: center;
+        }
+        
+        .bottom li a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .bottom li a span {
+            font-size: 30px;
+        }
+        
+        .bottom li a p {
+            display: block;
+            height: 20px;
+            width: 50px;
+            margin: 2px 0;
+        }
+       
+
+    </style>
+</head>
+
+
+<body>
+    <div id="top">
+        <div>
+            <a href="#">
+                <span class="iconfont">&#xe623;</span>
+            </a>
+        </div>
+
+        <a href="#">场库</a>
+        <a href="#">推荐</a>
+        <a href="#">关注</a>
+        <div>
+            <a href="#">
+                <span class="iconfont">&#xe50e;</span>
+            </a>
+        </div>
+
+
+    </div>
+    <div class="banner">
+        <a href="#">
+            <img src="images/tu1.jpg" alt="">
+        </a>
+    </div>
+    <div class="main">
+        <div class="yi">
+            <a href="#">
+                <span class="iconfont">&#xe50e;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe503;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe616;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe602;</span>
+            </a>
+        </div>
+        <div class="er">
+            <a href="#">
+                <span class="iconfont">&#xe50c;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe60e;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe502;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe50d;</span>
+            </a>
+        </div>
+
+
+
+    </div>
+    <div class="faxian">
+        <div class="name">
+            <h3>作品</h3>
+            <h5>全部作品</h5>
+        </div>
+        <div class="tu">
+            <div class="d1">
+                <div class="tu1">
+                    <h4>广告</h4>
+                    <img src="images/zuo2.jpg" alt="">
+                </div>
+
+
+                <div class="tu2">
+                    <h4>短视频</h4>
+                    <img src="images/zuo1.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="d1">
+                <div class="tu1">
+                    <h4>MV</h4>
+                    <img src="images/zuo3.jpg" alt="">
+                </div>
+
+
+                <div class="tu2">
+                    <h4>动画</h4>
+                    <img src="images/zuo4.jpg" alt="">
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <ul class="bottom">
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe608;</span>
+                <p>首页</p>
+
+            </a>
+
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe604;</span>
+                <p>发现</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe6ab;</span>
+                <p>学院</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe6a3;</span>
+                <p>消息</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe604;</span>
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+
+</body>
+
+</html>

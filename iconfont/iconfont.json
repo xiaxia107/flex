@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "908795",
+      "name": "圈圈-b",
+      "font_class": "quanquanb",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "960211",
+      "name": "文章",
+      "font_class": "wenzhang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1199689",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2803015",
+      "name": "音乐",
+      "font_class": "music",
+      "unicode": "e50c",
+      "unicode_decimal": 58636
+    },
+    {
+      "icon_id": "3494804",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e50e",
+      "unicode_decimal": 58638
+    },
+    {
+      "icon_id": "3753030",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "4040792",
+      "name": "机构",
+      "font_class": "organization",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "4082585",
+      "name": "活动",
+      "font_class": "huodong",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "6547523",
+      "name": "学院",
+      "font_class": "xueyuan",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "7155806",
+      "name": "文章",
+      "font_class": "wenzhang2-copy",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "8892638",
+      "name": "电影",
+      "font_class": "movie-active",
+      "unicode": "e50d",
+      "unicode_decimal": 58637
+    },
+    {
+      "icon_id": "9874655",
+      "name": "品牌+",
+      "font_class": "pinpai",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10101163",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "12362057",
+      "name": "握手",
+      "font_class": "hands-fill",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "13808638",
+      "name": "房子 (2)",
+      "font_class": "fangzi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
